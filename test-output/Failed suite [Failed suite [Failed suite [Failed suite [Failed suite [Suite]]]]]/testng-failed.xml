@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Locations_scenarios(failed)(failed)(failed)(failed)(failed)(failed)">
+    <classes>
+      <class name="com.test.user.Locations_scenarios">
+        <methods>
+          <include name="RUNALL" invocation-numbers="53"/>
+          <include name="reference"/>
+        </methods>
+      </class> <!-- com.test.user.Locations_scenarios -->
+    </classes>
+  </test> <!-- Locations_scenarios(failed)(failed)(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]]] -->
