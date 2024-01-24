@@ -1,17 +1,17 @@
-[INFO ] 2024-01-24 04:19:09.331 [main] Log - *** Running test method TC_01_Validate_SMTtitle_Text...
-[INFO ] 2024-01-24 04:19:11.356 [main] Log - Chrome browser launched successfully
-[INFO ] 2024-01-24 04:19:12.164 [main] Log - Entered the application url successfully: https://poolb.lafitness.clubs/SMTWebApp/SMTWEBApp/login
-[INFO ] 2024-01-24 04:19:12.178 [main] Log - SMTWeb title text matches successfully
-[INFO ] 2024-01-24 04:19:12.732 [main] Log - *** Test Suite TC_01_Validate_SMTtitle_Text ending ***
-[INFO ] 2024-01-24 04:19:12.732 [main] Log - Browser is closed
-[INFO ] 2024-01-24 04:19:12.748 [main] Log - *** Running test method TC_02_Validate_Text_ConfigChek_CCpop...
-[INFO ] 2024-01-24 04:19:14.248 [main] Log - Chrome browser launched successfully
-[INFO ] 2024-01-24 04:19:15.147 [main] Log - Entered the application url successfully: https://poolb.lafitness.clubs/SMTWebApp/SMTWEBApp/login
-[INFO ] 2024-01-24 04:19:15.403 [main] Log - *** Test Suite TC_02_Validate_Text_ConfigChek_CCpop ending ***
-[INFO ] 2024-01-24 04:19:15.406 [main] Log - Browser is closed
-[INFO ] 2024-01-24 04:19:15.411 [main] Log - *** Running test method TC_03_Validate_Click_btn_Contine_CCpop...
-[INFO ] 2024-01-24 04:19:16.847 [main] Log - Chrome browser launched successfully
-[INFO ] 2024-01-24 04:19:17.949 [main] Log - Entered the application url successfully: https://poolb.lafitness.clubs/SMTWebApp/SMTWEBApp/login
-[INFO ] 2024-01-24 04:19:20.431 [main] Log - Clicked successfully on 'Continue' button of Configure Check popup
-[INFO ] 2024-01-24 04:19:20.696 [main] Log - *** Test Suite TC_03_Validate_Click_btn_Contine_CCpop ending ***
-[INFO ] 2024-01-24 04:19:20.696 [main] Log - Browser is closed
+[INFO ] 2024-01-24 20:34:05.198 [main] Log - *** Running test method TC_01_Validate_SMTtitle_Text...
+[INFO ] 2024-01-24 20:34:08.634 [main] Log - Chrome browser launched successfully
+[INFO ] 2024-01-24 20:34:11.114 [main] Log - Entered the application url successfully: https://poolb.lafitness.clubs/SMTWebApp/SMTWEBApp/login
+[INFO ] 2024-01-24 20:34:11.120 [main] Log - SMTWeb title text matches successfully
+[INFO ] 2024-01-24 20:34:11.624 [main] Log - *** Test Suite TC_01_Validate_SMTtitle_Text ending ***
+[INFO ] 2024-01-24 20:34:11.624 [main] Log - Browser is closed
+[INFO ] 2024-01-24 20:34:11.653 [main] Log - *** Running test method TC_02_Validate_Text_ConfigChek_CCpop...
+[INFO ] 2024-01-24 20:34:13.254 [main] Log - Chrome browser launched successfully
+[INFO ] 2024-01-24 20:34:14.468 [main] Log - Entered the application url successfully: https://poolb.lafitness.clubs/SMTWebApp/SMTWEBApp/login
+[INFO ] 2024-01-24 20:34:14.692 [main] Log - *** Test Suite TC_02_Validate_Text_ConfigChek_CCpop ending ***
+[INFO ] 2024-01-24 20:34:14.693 [main] Log - Browser is closed
+[INFO ] 2024-01-24 20:34:14.706 [main] Log - *** Running test method TC_03_Validate_Click_btn_Contine_CCpop...
+[INFO ] 2024-01-24 20:34:16.184 [main] Log - Chrome browser launched successfully
+[INFO ] 2024-01-24 20:34:17.837 [main] Log - Entered the application url successfully: https://poolb.lafitness.clubs/SMTWebApp/SMTWEBApp/login
+[INFO ] 2024-01-24 20:34:20.323 [main] Log - Clicked successfully on 'Continue' button of Configure Check popup
+[INFO ] 2024-01-24 20:34:20.611 [main] Log - *** Test Suite TC_03_Validate_Click_btn_Contine_CCpop ending ***
+[INFO ] 2024-01-24 20:34:20.612 [main] Log - Browser is closed

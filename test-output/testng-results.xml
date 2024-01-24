@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-24T04:19:08 PST" name="Suite" finished-at="2024-01-24T04:19:20 PST" duration-ms="12297">
+  <suite started-at="2024-01-24T20:34:04 IST" name="Suite" finished-at="2024-01-24T20:34:20 IST" duration-ms="16254">
     <groups>
     </groups>
-    <test started-at="2024-01-24T04:19:08 PST" name="All_scenarios" finished-at="2024-01-24T04:19:20 PST" duration-ms="12297">
+    <test started-at="2024-01-24T20:34:04 IST" name="All_scenarios" finished-at="2024-01-24T20:34:20 IST" duration-ms="16254">
       <class name="com.test.user.All_scenarios">
-        <test-method is-config="true" signature="reference()[pri:0, instance:com.test.user.All_scenarios@368f2016]" started-at="2024-01-24T04:19:07 PST" name="reference" finished-at="2024-01-24T04:19:08 PST" duration-ms="565" status="PASS">
+        <test-method is-config="true" signature="reference()[pri:0, instance:com.test.user.All_scenarios@4c60d6e9]" started-at="2024-01-24T20:34:03 IST" name="reference" finished-at="2024-01-24T20:34:04 IST" duration-ms="509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reference -->
-        <test-method signature="RUNALL(java.util.Map,org.testng.ITestContext)[pri:0, instance:com.test.user.All_scenarios@368f2016]" started-at="2024-01-24T04:19:09 PST" name="RUNALL" data-provider="TestData" finished-at="2024-01-24T04:19:12 PST" duration-ms="3541" status="PASS">
+        <test-method signature="RUNALL(java.util.Map,org.testng.ITestContext)[pri:0, instance:com.test.user.All_scenarios@4c60d6e9]" started-at="2024-01-24T20:34:05 IST" name="RUNALL" data-provider="TestData" finished-at="2024-01-24T20:34:11 IST" duration-ms="6541" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,14 +20,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@411291e5]]>
+                <![CDATA[org.testng.TestRunner@4930539b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RUNALL -->
-        <test-method signature="RUNALL(java.util.Map,org.testng.ITestContext)[pri:0, instance:com.test.user.All_scenarios@368f2016]" started-at="2024-01-24T04:19:12 PST" name="RUNALL" data-provider="TestData" finished-at="2024-01-24T04:19:15 PST" duration-ms="2666" status="PASS">
+        <test-method signature="RUNALL(java.util.Map,org.testng.ITestContext)[pri:0, instance:com.test.user.All_scenarios@4c60d6e9]" started-at="2024-01-24T20:34:11 IST" name="RUNALL" data-provider="TestData" finished-at="2024-01-24T20:34:14 IST" duration-ms="3048" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,14 +36,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@411291e5]]>
+                <![CDATA[org.testng.TestRunner@4930539b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RUNALL -->
-        <test-method signature="RUNALL(java.util.Map,org.testng.ITestContext)[pri:0, instance:com.test.user.All_scenarios@368f2016]" started-at="2024-01-24T04:19:15 PST" name="RUNALL" data-provider="TestData" finished-at="2024-01-24T04:19:20 PST" duration-ms="5287" status="PASS">
+        <test-method signature="RUNALL(java.util.Map,org.testng.ITestContext)[pri:0, instance:com.test.user.All_scenarios@4c60d6e9]" started-at="2024-01-24T20:34:14 IST" name="RUNALL" data-provider="TestData" finished-at="2024-01-24T20:34:20 IST" duration-ms="5910" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,7 +52,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@411291e5]]>
+                <![CDATA[org.testng.TestRunner@4930539b]]>
               </value>
             </param>
           </params>
