@@ -72,7 +72,7 @@ public class Base_Class {
 //	        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");  
 	          
 	       
-			 //WebDriverManager.chromedriver().setup();
+			 WebDriverManager.chromedriver().setup();
 			 //driver = new ChromeDriver();
 			
 		

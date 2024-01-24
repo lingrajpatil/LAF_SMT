@@ -1,17 +1,162 @@
-[INFO ] 2024-01-24 20:34:05.198 [main] Log - *** Running test method TC_01_Validate_SMTtitle_Text...
-[INFO ] 2024-01-24 20:34:08.634 [main] Log - Chrome browser launched successfully
-[INFO ] 2024-01-24 20:34:11.114 [main] Log - Entered the application url successfully: https://poolb.lafitness.clubs/SMTWebApp/SMTWEBApp/login
-[INFO ] 2024-01-24 20:34:11.120 [main] Log - SMTWeb title text matches successfully
-[INFO ] 2024-01-24 20:34:11.624 [main] Log - *** Test Suite TC_01_Validate_SMTtitle_Text ending ***
-[INFO ] 2024-01-24 20:34:11.624 [main] Log - Browser is closed
-[INFO ] 2024-01-24 20:34:11.653 [main] Log - *** Running test method TC_02_Validate_Text_ConfigChek_CCpop...
-[INFO ] 2024-01-24 20:34:13.254 [main] Log - Chrome browser launched successfully
-[INFO ] 2024-01-24 20:34:14.468 [main] Log - Entered the application url successfully: https://poolb.lafitness.clubs/SMTWebApp/SMTWEBApp/login
-[INFO ] 2024-01-24 20:34:14.692 [main] Log - *** Test Suite TC_02_Validate_Text_ConfigChek_CCpop ending ***
-[INFO ] 2024-01-24 20:34:14.693 [main] Log - Browser is closed
-[INFO ] 2024-01-24 20:34:14.706 [main] Log - *** Running test method TC_03_Validate_Click_btn_Contine_CCpop...
-[INFO ] 2024-01-24 20:34:16.184 [main] Log - Chrome browser launched successfully
-[INFO ] 2024-01-24 20:34:17.837 [main] Log - Entered the application url successfully: https://poolb.lafitness.clubs/SMTWebApp/SMTWEBApp/login
-[INFO ] 2024-01-24 20:34:20.323 [main] Log - Clicked successfully on 'Continue' button of Configure Check popup
-[INFO ] 2024-01-24 20:34:20.611 [main] Log - *** Test Suite TC_03_Validate_Click_btn_Contine_CCpop ending ***
-[INFO ] 2024-01-24 20:34:20.612 [main] Log - Browser is closed
+[INFO ] 2024-01-24 21:55:22.786 [main] Log - *** Running test method TC_01_Validate_SMTtitle_Text...
+[ERROR] 2024-01-24 21:55:28.606 [main] Log - *** Test execution TC_01_Validate_SMTtitle_Text failed...
+[ERROR] 2024-01-24 21:55:28.609 [main] Log - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 120.0.6099.225 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'CPC-22001-1FDWB', ip: '10.23.13.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 120, goog:chromeOptions: {args: [--disable-extensions, --incognito], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, browserVersion: 120, goog:chromeOptions: {args: [--disable-extensions, --incognito], extensions: []}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:151)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:104)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:91)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:80)
+	at com.BasePackage.Base_Class.setup(Base_Class.java:108)
+	at com.test.user.All_scenarios.RUNALL(All_scenarios.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+[INFO ] 2024-01-24 21:55:28.613 [main] Log - Browser is closed
+[INFO ] 2024-01-24 21:55:28.896 [main] Log - *** Test Suite TC_01_Validate_SMTtitle_Text ending ***
+[INFO ] 2024-01-24 21:55:28.914 [main] Log - *** Running test method TC_02_Validate_Text_ConfigChek_CCpop...
+[ERROR] 2024-01-24 21:55:31.704 [main] Log - *** Test execution TC_02_Validate_Text_ConfigChek_CCpop failed...
+[ERROR] 2024-01-24 21:55:31.705 [main] Log - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 120.0.6099.225 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'CPC-22001-1FDWB', ip: '10.23.13.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 120, goog:chromeOptions: {args: [--disable-extensions, --incognito], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, browserVersion: 120, goog:chromeOptions: {args: [--disable-extensions, --incognito], extensions: []}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:151)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:104)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:91)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:80)
+	at com.BasePackage.Base_Class.setup(Base_Class.java:108)
+	at com.test.user.All_scenarios.RUNALL(All_scenarios.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+[INFO ] 2024-01-24 21:55:31.707 [main] Log - Browser is closed
+[INFO ] 2024-01-24 21:55:31.797 [main] Log - *** Test Suite TC_02_Validate_Text_ConfigChek_CCpop ending ***
+[INFO ] 2024-01-24 21:55:31.814 [main] Log - *** Running test method TC_03_Validate_Click_btn_Contine_CCpop...
+[ERROR] 2024-01-24 21:55:34.608 [main] Log - *** Test execution TC_03_Validate_Click_btn_Contine_CCpop failed...
+[ERROR] 2024-01-24 21:55:34.610 [main] Log - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 120.0.6099.225 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'CPC-22001-1FDWB', ip: '10.23.13.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 120, goog:chromeOptions: {args: [--disable-extensions, --incognito], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, browserVersion: 120, goog:chromeOptions: {args: [--disable-extensions, --incognito], extensions: []}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:230)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:151)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:104)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:91)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:80)
+	at com.BasePackage.Base_Class.setup(Base_Class.java:108)
+	at com.test.user.All_scenarios.RUNALL(All_scenarios.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+[INFO ] 2024-01-24 21:55:34.611 [main] Log - Browser is closed
+[INFO ] 2024-01-24 21:55:34.676 [main] Log - *** Test Suite TC_03_Validate_Click_btn_Contine_CCpop ending ***
