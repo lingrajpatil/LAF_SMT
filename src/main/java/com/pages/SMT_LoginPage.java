@@ -1,20 +1,18 @@
 package com.pages;
 
 
+import org.openqa.selenium.By;
 import com.BasePackage.Base_Class;
-import org.testng.*;
-
 import java.awt.AWTException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
-
 import com.Utility.Log;
 
 import org.apache.xmlbeans.impl.xb.xsdschema.Public;
 //import org.apache.logging.log4j.core.util.Assert;
-import org.openqa.selenium.By;
+
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
