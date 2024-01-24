@@ -72,16 +72,13 @@ public class Base_Class {
 //	        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");  
 	          
 	       
-			 WebDriverManager.chromedriver().setup();
-			 //driver = new ChromeDriver();
-			
-		
+//			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
-			options.setBrowserVersion("120");
+			options.setBrowserVersion("115");
 //			options.addArguments("--remote-allow-origins=*");
 			options.addArguments("--disable-extensions");
 			options.addArguments("--incognito");
-//			options.setPageLoadStrategy(PageLoadStrategy.EAGER);
+			options.setPageLoadStrategy(PageLoadStrategy.EAGER);
 //			options.addArguments("--disable-gpu");
 //			options.addArguments("enable-automation");
 ////			options.addArguments("--headless");
@@ -104,8 +101,8 @@ public class Base_Class {
 //			options.addArguments("--disable-blink-features=AutomationControlled");
 //			options.setProxy(null);
 //			WebDriverManager.chromedriver().forceDownload().setup();
-			  //driver=new ChromeDriver(options); 
-			driver = new ChromeDriver(options);
+			  driver=new ChromeDriver(options); 
+//			driver = new ChromeDriver(options);
 			
 			break;
 
@@ -142,12 +139,10 @@ public class Base_Class {
 
 			WebDriverManager.edgedriver().setup();
 			
-			//EdgeOptions options2 = new EdgeOptions();
-			
-			//options2.addArguments("--disable-extensions");
-			//options2.addArguments("-private");
-			driver = new EdgeDriver();
-			Thread.sleep(10000);
+			EdgeOptions options2 = new EdgeOptions();
+			options2.addArguments("--disable-extensions");
+			options2.addArguments("-private");
+			driver = new EdgeDriver(options2);
 			break;
 			
 			
@@ -1199,5 +1194,75 @@ public void select_dropdown(By dropdown, String dropdown_value, String dropdown_
 		return Date_exact;
 	}
 	
+	public String GetCurrentURL()
+	{
+		String currentURL = driver.getCurrentUrl();
+		
+		return currentURL;
+	}
+	
+	public boolean IsElementDisplayed(By element) throws Exception {
+		try {
+
+			WebDriverWait wait2 = new WebDriverWait(driver, Duration.ofSeconds(30));
+			Assert.assertTrue(wait2.until(ExpectedConditions.presenceOfElementLocated(element)).isDisplayed());
+			Thread.sleep(100);
+			return driver.findElement(element).isDisplayed();
+	
+		} catch (Exception e) {
+			String stackTrace = Throwables.getStackTraceAsString(e);
+			Log.error( stackTrace);
+			throw new Exception("Element: "+ element +" is not displayed");
+			
+		}
+		catch (AssertionError e) {
+			String stackTrace = Throwables.getStackTraceAsString(e);
+			Log.error( stackTrace);
+			throw new Exception("Element: "+ element +" is not displayed");
+		}
+		
+		
+	}
+	
+	public void waitForElementClickable(By element) {
+		WebDriverWait wait = new WebDriverWait(driver,  Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.elementToBeClickable(element)).click();
+
+	}
+	
 	
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Joinnow_Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Joinnow_Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 07 18:43:50 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>67 seconds (67689 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.user.Join_now_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Join_now_scenarios<br>Parameters: {=, Club_name=, Country=, Dropdown_values=, Rates/Amenities=, Run=No, TestScenario=TC_LAF_Validate_Joinnow_button, TextMessage=Joinnow}, org.testng.TestRunner@5111de7c</td>
+<td></td>
+<td>0</td>
+<td>com.test.user.Join_now_scenarios@7692d9cc</td></tr>
+<tr>
+<td title='com.test.user.Join_now_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Join_now_scenarios<br>Parameters: {=, Club_name=, Country=, Dropdown_values=, Rates/Amenities=, Run=No, TestScenario=TC_LAF_Validate_Joinnow_Steps, TextMessage=Joinnow_steps}, org.testng.TestRunner@5111de7c</td>
+<td></td>
+<td>0</td>
+<td>com.test.user.Join_now_scenarios@7692d9cc</td></tr>
+<tr>
+<td title='com.test.user.Join_now_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Join_now_scenarios<br>Parameters: {=, Club_name=, Country=, Dropdown_values=, Rates/Amenities=, Run=No, TestScenario=TC_LAF_Validate_Joinnow_Fields, TextMessage=Joinnow_fields}, org.testng.TestRunner@5111de7c</td>
+<td></td>
+<td>0</td>
+<td>com.test.user.Join_now_scenarios@7692d9cc</td></tr>
+<tr>
+<td title='com.test.user.Join_now_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Join_now_scenarios<br>Parameters: {=, Club_name=, Country=, Dropdown_values=ALL,USA, Canada, Rates/Amenities=, Run=No, TestScenario=TC_LAF_Validate_Joinnow_country_values, TextMessage=country_values}, org.testng.TestRunner@5111de7c</td>
+<td></td>
+<td>0</td>
+<td>com.test.user.Join_now_scenarios@7692d9cc</td></tr>
+<tr>
+<td title='com.test.user.Join_now_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Join_now_scenarios<br>Parameters: {=, Club_name=, Country=All, Dropdown_values=,AB,AZ,CA,CT,DE,FL,GA,IL,IN,MA,MD,MI,MN,NC,NJ,NY,ON,OR,PA,RI,TX,VA,WA, Rates/Amenities=, Run=No, TestScenario=TC_LAF_Validate_Joinnow_ByStateorprovince_dropdown_ALL, TextMessage=ByStateorprovince_dropdown_ALL}, org.testng.TestRunner@5111de7c</td>
+<td></td>
+<td>0</td>
+<td>com.test.user.Join_now_scenarios@7692d9cc</td></tr>
+<tr>
+<td title='com.test.user.Join_now_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Join_now_scenarios<br>Parameters: {=, Club_name=, Country=CANADA, Dropdown_values=,AB,ON, Rates/Amenities=, Run=No, TestScenario=TC_LAF_Validate_Joinnow_ByStateorprovince_dropdown_CANADA, TextMessage=ByStateorprovince_dropdown_CANADA}, org.testng.TestRunner@5111de7c</td>
+<td></td>
+<td>0</td>
+<td>com.test.user.Join_now_scenarios@7692d9cc</td></tr>
+<tr>
+<td title='com.test.user.Join_now_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Join_now_scenarios<br>Parameters: {=, Club_name=, Country=USA, Dropdown_values=,AZ,CA,CT,DE,FL,GA,IL,IN,MA,MD,MI,MN,NC,NJ,NY,OR,PA,RI,TX,VA,WA, Rates/Amenities=, Run=No, TestScenario=TC_LAF_Validate_Joinnow_ByStateorprovince_dropdown_USA, TextMessage=ByStateorprovince_dropdown_USA}, org.testng.TestRunner@5111de7c</td>
+<td></td>
+<td>0</td>
+<td>com.test.user.Join_now_scenarios@7692d9cc</td></tr>
+<tr>
+<td title='com.test.user.Join_now_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Join_now_scenarios<br>Parameters: {=, Club_name=, Country=All, Dropdown_values=NY, Rates/Amenities=, Run=No, TestScenario=TC_LAF_Validate_Joinnow_Listofclubs, TextMessage=Listofclubs}, org.testng.TestRunner@5111de7c</td>
+<td></td>
+<td>0</td>
+<td>com.test.user.Join_now_scenarios@7692d9cc</td></tr>
+<tr>
+<td title='com.test.user.Join_now_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Join_now_scenarios<br>Parameters: {=, Club_name=, Country=USA, Dropdown_values=CT, Rates/Amenities=, Run=No, TestScenario=TC_LAF_Validate_Joinnow_Clubdetails, TextMessage=club_details}, org.testng.TestRunner@5111de7c</td>
+<td></td>
+<td>0</td>
+<td>com.test.user.Join_now_scenarios@7692d9cc</td></tr>
+<tr>
+<td title='com.test.user.Join_now_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Join_now_scenarios<br>Parameters: {=, Club_name=, Country=CANADA, Dropdown_values=AB, Rates/Amenities=, Run=No, TestScenario=TC_LAF_Validate_Joinnow_clubsbuttons, TextMessage=clubs_buttons}, org.testng.TestRunner@5111de7c</td>
+<td></td>
+<td>0</td>
+<td>com.test.user.Join_now_scenarios@7692d9cc</td></tr>
+<tr>
+<td title='com.test.user.Join_now_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Join_now_scenarios<br>Parameters: {=, Club_name=, Country=USA, Dropdown_values=NY, Rates/Amenities=, Run=No, TestScenario=TC_LAF_Validate_Joinnow_club_ratesandamenities, TextMessage=club_ratesandamenities}, org.testng.TestRunner@5111de7c</td>
+<td></td>
+<td>0</td>
+<td>com.test.user.Join_now_scenarios@7692d9cc</td></tr>
+<tr>
+<td title='com.test.user.Join_now_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Join_now_scenarios<br>Parameters: {=, Club_name=, Country=USA, Dropdown_values=NY, Rates/Amenities=CLUB RATES $99 Initiation fee $34.99 per month Signature Online - Easy Start OR $0 Initiation fee $44.99 per month Signature Online - Easy Start, Run=No, TestScenario=TC_LAF_Validate_Joinnow_club_rateplans, TextMessage=club_rateplans}, org.testng.TestRunner@5111de7c</td>
+<td></td>
+<td>0</td>
+<td>com.test.user.Join_now_scenarios@7692d9cc</td></tr>
+<tr>
+<td title='com.test.user.Join_now_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Join_now_scenarios<br>Parameters: {=, Club_name=, Country=USA, Dropdown_values=NY, Rates/Amenities=Group Fitness Classes, Indoor Cycling, Indoor Pool, Kids Klub*, Personal Training*, Sauna, Whirlpool Spa, Wi-Fi, , Run=No, TestScenario=TC_LAF_Validate_Joinnow_club_Amenities, TextMessage=club_Amenities}, org.testng.TestRunner@5111de7c</td>
+<td></td>
+<td>0</td>
+<td>com.test.user.Join_now_scenarios@7692d9cc</td></tr>
+<tr>
+<td title='com.test.user.Join_now_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Join_now_scenarios<br>Parameters: {=, Club_name=BUFFALO - ELMWOOD AVE, Country=USA, Dropdown_values=NY, Rates/Amenities=, Run=Yes, TestScenario=TC_LAF_Validate_Joinnow_club_steptwo, TextMessage=Joinnow_steptwo}, org.testng.TestRunner@5111de7c</td>
+<td></td>
+<td>50</td>
+<td>com.test.user.Join_now_scenarios@7692d9cc</td></tr>
+<tr>
+<td title='com.test.user.Join_now_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Join_now_scenarios<br>Parameters: {=, Club_name=, Country=USA, Dropdown_values=NY, Rates/Amenities=, Run=Yes, TestScenario=TC_LAF_Validate_Joinnow_club_selectadditionalfeatues_yourhomeclub, TextMessage=selectadditionalfeatues_yourhomeclub}, org.testng.TestRunner@5111de7c</td>
+<td></td>
+<td>16</td>
+<td>com.test.user.Join_now_scenarios@7692d9cc</td></tr>
+</table><p>
+</body>
+</html>

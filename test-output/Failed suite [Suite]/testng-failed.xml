@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="All_scenarios(failed)(failed)">
+  <test thread-count="5" name="Career_Opportunities_ESP_scenarios2(failed)(failed)">
     <classes>
-      <class name="com.test.user.All_scenarios">
+      <class name="com.test.user.Career_Opportunities_ESP_scenarios2">
         <methods>
           <include name="reference"/>
-          <include name="RUNALL" invocation-numbers="3 4"/>
+          <include name="RUNALL" invocation-numbers="16"/>
         </methods>
-      </class> <!-- com.test.user.All_scenarios -->
+      </class> <!-- com.test.user.Career_Opportunities_ESP_scenarios2 -->
     </classes>
-  </test> <!-- All_scenarios(failed)(failed) -->
+  </test> <!-- Career_Opportunities_ESP_scenarios2(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Suite]] -->

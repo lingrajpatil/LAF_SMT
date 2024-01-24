@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Locations_scenarios(failed)</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/19/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Apr 19 23:43:19 IST 2023</td>
+<td>Started on:</td><td>Wed Oct 25 20:27:50 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>15 seconds (15318 ms)</td>
+<tr><td>Total time:</td><td>1383 seconds (1383221 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,1496 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_38_Validate_Move_left_in_Loc_page, Text_input=, TextMessage=Validate_Move_left_in_Loc_page, Time_period_DD=, To_date=, Total_initial_Payment=, Url=, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //div[@class=&apos;btn-group btn-group-sm&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_Move_left_in_Loc_page(Locations.java:1342)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:468)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1816269091", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1816269091'><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //div[@class=&apos;btn-group btn-group-sm&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_Move_left_in_Loc_page(Locations.java:1342)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:468)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>61</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=Hayward, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_46_Validate_zoom_out_in_maptype_btns_Res, Text_input=, TextMessage=Validate_zoom_out_in_maptype_btns_Res, Time_period_DD=, To_date=, Total_initial_Payment=, Url=https://test4.lafitness.com/Pages/findclubresultszip.aspx?, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: java.lang.Exception: Element: By.id: MapTypeSwitcherButton is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_zoom_out_in_maptype_btns_Res(Locations.java:1576)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:526)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1671933702", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1671933702'><pre>java.lang.Exception: java.lang.Exception: Element: By.id: MapTypeSwitcherButton is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_zoom_out_in_maptype_btns_Res(Locations.java:1576)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:526)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>71</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=Hayward, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_48_Validate_Move_down_in_Res_page, Text_input=, TextMessage=Validate_Move_down_in_Res_page, Time_period_DD=, To_date=, Total_initial_Payment=, Url=https://test4.lafitness.com/Pages/findclubresultszip.aspx?, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //div[@class=&apos;btn-group btn-group-sm&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_Move_down_in_Res_page(Locations.java:1650)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1999666001", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1999666001'><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //div[@class=&apos;btn-group btn-group-sm&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_Move_down_in_Res_page(Locations.java:1650)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:541)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>65</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=Hayward, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_52_Validate_ZoomIn_btn_Res, Text_input=, TextMessage=Validate_ZoomIn_btn_Res, Time_period_DD=, To_date=, Total_initial_Payment=, Url=https://test4.lafitness.com/Pages/findclubresultszip.aspx?, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: ZoomInButton (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\SHAIK~1.IRS\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59555}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59555/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cd50a68055e5bd041ff4725f0bd39f8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.BasePackage.Base_Class.click(Base_Class.java:548)
+	at com.pages.Locations.Validate_ZoomIn_btn_Res(Locations.java:1771)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:576)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1271109184", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1271109184'><pre>java.lang.Exception: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: ZoomInButton (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\SHAIK~1.IRS\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59555}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59555/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cd50a68055e5bd041ff4725f0bd39f8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.BasePackage.Base_Class.click(Base_Class.java:548)
+	at com.pages.Locations.Validate_ZoomIn_btn_Res(Locations.java:1771)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:576)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>69</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=Hayward, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_45_Validate_Movebtns_map_in_Res_page, Text_input=, TextMessage=Validate_Movebtns_map_in_Res_page, Time_period_DD=, To_date=, Total_initial_Payment=, Url=https://test4.lafitness.com/Pages/findclubresultszip.aspx?, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //div[@class=&apos;btn-group btn-group-sm&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_Movebtns_map_in_Res_page(Locations.java:1538)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:518)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2049393953", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2049393953'><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //div[@class=&apos;btn-group btn-group-sm&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_Movebtns_map_in_Res_page(Locations.java:1538)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:518)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>64</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=All, Date_to_begin=, Dropdown_values=AB, AR,AZ, CA, CT, DE, FL, GA, IL,IN, KY, LA, MA, MD,MI, MN, NC, NJ, NY, OH, ON, OR, PA, RI, SC, TN, TX , VA, WA, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_08_Validate_state_dd_all_options_All, Text_input=, TextMessage=Validate_state_dd_all_options, Time_period_DD=, To_date=, Total_initial_Payment=, Url=, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: All
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at com.pages.Locations.Validate_select_desired_country(Locations.java:281)
+	at com.pages.Locations.Validate_state_dd_all_options(Locations.java:401)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:277)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1364898802", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1364898802'><pre>java.lang.Exception: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: All
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at com.pages.Locations.Validate_select_desired_country(Locations.java:281)
+	at com.pages.Locations.Validate_state_dd_all_options(Locations.java:401)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:277)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>61</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=Hayward, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_14_Validate_ip_in_city, Text_input=, TextMessage=Validate_ip_in_city, Time_period_DD=, To_date=, Total_initial_Payment=, Url=, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
+from no such execution context: uniqueContextId not found
+  (Session info: chrome=115.0.5790.170) 
+Host info: host: &apos;CPC-ShaikIrF-B1&apos;, ip: &apos;10.23.13.18&apos;
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 115, goog:chromeOptions: {args: [--remote-allow-origins=*, --disable-extensions, --incognito], binary: C:\Users\Shaik.Irshad\.cach..., extensions: []}, pageLoadStrategy: eager}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:159)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:72)
+	at com.BasePackage.Base_Class.setup(Base_Class.java:104)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace133346202", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace133346202'><pre>java.lang.Exception: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
+from no such execution context: uniqueContextId not found
+  (Session info: chrome=115.0.5790.170) 
+Host info: host: &apos;CPC-ShaikIrF-B1&apos;, ip: &apos;10.23.13.18&apos;
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: 115, goog:chromeOptions: {args: [--remote-allow-origins=*, --disable-extensions, --incognito], binary: C:\Users\Shaik.Irshad\.cach..., extensions: []}, pageLoadStrategy: eager}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:159)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:72)
+	at com.BasePackage.Base_Class.setup(Base_Class.java:104)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=Hayward, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_47_Validate_Move_up_in_Res_page, Text_input=, TextMessage=Validate_Move_up_in_Res_page, Time_period_DD=, To_date=, Total_initial_Payment=, Url=https://test4.lafitness.com/Pages/findclubresultszip.aspx?, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //div[@class=&apos;btn-group btn-group-sm&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_Move_up_in_Res_page(Locations.java:1611)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:533)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1933301491", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1933301491'><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //div[@class=&apos;btn-group btn-group-sm&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_Move_up_in_Res_page(Locations.java:1611)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:533)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>66</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_36_Validate_Move_up_in_Loc_page, Text_input=, TextMessage=Validate_Move_up_in_Loc_page, Time_period_DD=, To_date=, Total_initial_Payment=, Url=, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //div[@class=&apos;btn-group btn-group-sm&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_Move_up_in_Loc_page(Locations.java:1275)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:453)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace488388565", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace488388565'><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //div[@class=&apos;btn-group btn-group-sm&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_Move_up_in_Loc_page(Locations.java:1275)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:453)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>60</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=Hayward, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_49_Validate_Move_left_in_Res_page, Text_input=, TextMessage=Validate_Move_left_in_Res_page, Time_period_DD=, To_date=, Total_initial_Payment=, Url=https://test4.lafitness.com/Pages/findclubresultszip.aspx?, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //div[@class=&apos;btn-group btn-group-sm&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_Move_left_in_Res_page(Locations.java:1678)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:550)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1962603600", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1962603600'><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //div[@class=&apos;btn-group btn-group-sm&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_Move_left_in_Res_page(Locations.java:1678)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:550)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>76</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=Hayward, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_50_Validate_Move_right_in_Res_page, Text_input=, TextMessage=Validate_Move_right_in_Res_page, Time_period_DD=, To_date=, Total_initial_Payment=, Url=https://test4.lafitness.com/Pages/findclubresultszip.aspx?, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //div[@class=&apos;btn-group btn-group-sm&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_Move_right_in_Res_page(Locations.java:1706)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:558)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace635586824", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace635586824'><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //div[@class=&apos;btn-group btn-group-sm&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_Move_right_in_Res_page(Locations.java:1706)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:558)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>72</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=Hayward, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_51_Validate_Maptypeswitcher_btn_Res, Text_input=, TextMessage=Validate_Maptypeswitcher_btn_Res, Time_period_DD=, To_date=, Total_initial_Payment=, Url=https://test4.lafitness.com/Pages/findclubresultszip.aspx?, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: MapTypeSwitcherButton (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\SHAIK~1.IRS\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59421}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59421/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 960fa6c97ba768c57b5775fd21d539cf
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.BasePackage.Base_Class.click(Base_Class.java:548)
+	at com.pages.Locations.Validate_Maptypeswitcher_btn_Res(Locations.java:1733)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:567)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace906837831", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace906837831'><pre>java.lang.Exception: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: MapTypeSwitcherButton (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\SHAIK~1.IRS\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59421}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59421/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 960fa6c97ba768c57b5775fd21d539cf
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.BasePackage.Base_Class.click(Base_Class.java:548)
+	at com.pages.Locations.Validate_Maptypeswitcher_btn_Res(Locations.java:1733)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:567)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>72</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_39_Validate_Move_right_in_Loc_page, Text_input=, TextMessage=Validate_Move_right_in_Loc_page, Time_period_DD=, To_date=, Total_initial_Payment=, Url=, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //div[@class=&apos;btn-group btn-group-sm&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_Move_right_in_Loc_page(Locations.java:1370)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:475)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1383273534", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1383273534'><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //div[@class=&apos;btn-group btn-group-sm&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_Move_right_in_Loc_page(Locations.java:1370)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:475)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>59</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=CANADA, Date_to_begin=, Dropdown_values=AB,ON, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_10_Validate_state_dd_all_options_CANADA, Text_input=, TextMessage=Validate_state_dd_all_options, Time_period_DD=, To_date=, Total_initial_Payment=, Url=, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: CANADA
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at com.pages.Locations.Validate_select_desired_country(Locations.java:281)
+	at com.pages.Locations.Validate_state_dd_all_options(Locations.java:401)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:277)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace35826861", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace35826861'><pre>java.lang.Exception: org.openqa.selenium.NoSuchElementException: Cannot locate option with text: CANADA
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:153)
+	at com.pages.Locations.Validate_select_desired_country(Locations.java:281)
+	at com.pages.Locations.Validate_state_dd_all_options(Locations.java:401)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:277)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>61</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_34_Validate_Movebtns_map_in_Loc_page, Text_input=, TextMessage=Validate_Movebtns_map_in_Loc_page, Time_period_DD=, To_date=, Total_initial_Payment=, Url=, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //div[@class=&apos;btn-group btn-group-sm&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_Movebtns_map_in_Loc_page(Locations.java:1202)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:436)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1557712937", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1557712937'><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //div[@class=&apos;btn-group btn-group-sm&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_Movebtns_map_in_Loc_page(Locations.java:1202)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:436)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>60</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=95118, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_64_Validate_VirtualTour_window, Text_input=, TextMessage=Validate_VirtualTour_window, Time_period_DD=, To_date=, Total_initial_Payment=, Url=https://test4.lafitness.com/Pages/findclubresultszip.aspx?, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //input[@value=&apos;Virtual Tour&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_VirtualTour_window(Locations.java:3856)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:722)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace971578330", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace971578330'><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //input[@value=&apos;Virtual Tour&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_VirtualTour_window(Locations.java:3856)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:722)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>61</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=Hayward, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_53_Validate_ZoomOut_btn_Res, Text_input=, TextMessage=Validate_ZoomOut_btn_Res, Time_period_DD=, To_date=, Total_initial_Payment=, Url=https://test4.lafitness.com/Pages/findclubresultszip.aspx?, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: ZoomInButton (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\SHAIK~1.IRS\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59698}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59698/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e713b73b92d033120d9337d7fed0b9a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.BasePackage.Base_Class.click(Base_Class.java:548)
+	at com.pages.Locations.Validate_ZoomOut_btn_Res(Locations.java:1806)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:584)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1459367146", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1459367146'><pre>java.lang.Exception: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: ZoomInButton (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\SHAIK~1.IRS\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59698}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59698/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e713b73b92d033120d9337d7fed0b9a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.BasePackage.Base_Class.click(Base_Class.java:548)
+	at com.pages.Locations.Validate_ZoomOut_btn_Res(Locations.java:1806)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:584)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>62</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_42_Validate_ZoomOut_btn, Text_input=, TextMessage=Validate_ZoomOut_btn, Time_period_DD=, To_date=, Total_initial_Payment=, Url=, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: ZoomInButton (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\SHAIK~1.IRS\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58380}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58380/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37025df889f90805dc976d9adb905c71
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.BasePackage.Base_Class.click(Base_Class.java:548)
+	at com.pages.Locations.Validate_ZoomOut_btn(Locations.java:1470)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:496)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1574057993", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1574057993'><pre>java.lang.Exception: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: ZoomInButton (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\SHAIK~1.IRS\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58380}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58380/devtoo..., se:cdpVersion: 115.0.5790.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37025df889f90805dc976d9adb905c71
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.BasePackage.Base_Class.click(Base_Class.java:548)
+	at com.pages.Locations.Validate_ZoomOut_btn(Locations.java:1470)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:496)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>62</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=95118, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_63_Validate_VirtualTour_button, Text_input=, TextMessage=Validate_VirtualTour_button, Time_period_DD=, To_date=, Total_initial_Payment=, Url=https://test4.lafitness.com/Pages/findclubresultszip.aspx?, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td><div><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //input[@value=&apos;Virtual Tour&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_VirtualTour_button(Locations.java:3829)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:715)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 50 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace72047444", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace72047444'><pre>java.lang.Exception: java.lang.Exception: Element: By.xpath: //input[@value=&apos;Virtual Tour&apos;] is not displayed
+	at com.BasePackage.Base_Class.Element_isdisplayed(Base_Class.java:455)
+	at com.pages.Locations.Validate_VirtualTour_button(Locations.java:3829)
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:715)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at com.test.user.Locations_scenarios.RUNALL(Locations_scenarios.java:780)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>63</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,10 +1565,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=LAF, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=Temecula, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=Esporta Fitness | Find a Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_50_Validate_Move_right_in_Res_page, Text_input=, TextMessage=Validate_Move_right_in_Res_page, Time_period_DD=, To_date=, Total_initial_Payment=, Url=https://test4.lafitness.com/Pages/findclubresultszip.aspx?, Work_time=}, org.testng.TestRunner@5300f14a</td>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_40_Validate_Maptypeswitcher_btn, Text_input=, TextMessage=Validate_Maptypeswitcher_btn, Time_period_DD=, To_date=, Total_initial_Payment=, Url=, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td></td>
+<td>15</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_35_Validate_zoom_out_in_maptype_btns, Text_input=, TextMessage=Validate_zoom_out_in_maptype_btns, Time_period_DD=, To_date=, Total_initial_Payment=, Url=, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td></td>
+<td>9</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=, State=, Supervisor_name=, TestScenario=TC_05_Validate_zipcode_searchsec, Text_input=, TextMessage=Validate_zipcode_searchsec, Time_period_DD=, To_date=, Total_initial_Payment=, Url=, Work_time=}, org.testng.TestRunner@13d186db</td>
 <td></td>
 <td>12</td>
-<td>com.test.user.Locations_scenarios@36902638</td></tr>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
+<tr>
+<td title='com.test.user.Locations_scenarios.RUNALL()'><b>RUNALL</b><br>Test class: com.test.user.Locations_scenarios<br>Parameters: {Account_number=, Add_amenities=, additional_input=, Aerobics_Instructor_Exp_DD=, Amount_details=, Annual_Fee_Per_Person=, Billing_Frequency=, Brand=City Sports, Can_contact_radio_button=, Card_name=, Card_number=, Certificate_No=, Certification_IssuedByDPValues=, Certified_In_DD=, Change_brand_name=, Checkbox_class_formats=, Class_per_week=, Club_Address=, Club_city=, Club_Employer_DD=, Club_name=, Club_phone=, Club_zip=95118, Considered_for_chkbx=, Country=, Date_to_begin=, Dropdown_values=, E_EducationLeve_Dropdown=, Email=, Emp_details=, Emp_gap=, Employer_name=, EmploymentHowResigned_dd=, EmploymentSuccess_ip=, EmploymentWhatDislike_ip=, EmploymentWhatLike_ip=, EmploymentWhyLeaveCurrent_ip=, EmploymentWhyReapply_ip=, EmploymentWhyResignInFuture_ip=, Everemployed_rdobtn=, Ex_month=, Ex_year=, F_Name=, File_name=, First_Month_Dues=, From_date=, Full_name=, Gender_dd=, Hold_cert_GT_AC_ratio_button=, How_hear_abt_us=, Included_amenities=, Initial_Term=, Initiation_Fee=, input_data=, input_data1=, input_data2=, input_data3=, input_data4=, input_data5=, input_data6=City Sports Club | Find a City Sports Club Gym | Find a Health Club, IP_Address=, Job_long_des=, Job_short_des=, Job_title=, L_Name=, Languages=, Last_Month_Dues=, Leaving_Reason=, Member_address=, Member_City=, Member_Phone=, Member_Zipcode=, Mobile_Device=, Module=Locations, No_Prev_emp_chk_box=, Number_of_Persons1=, Payment_type=, Personal_Training_ExperienceDPValues=, Plan_rates=, Prepayment=, PriorEmploymentWhyResigned_ip=, RaceEthnicity_dd=, Radiobtn18YearsOld=, Radius_travel_to_work=, Rates/amenities=, Rates_details=, Res_Run=, Routing_number=, Run=Yes, Show_dd=, SortBy_dd=Club, State=, Supervisor_name=, TestScenario=TC_69_Validate_sortby_filter_club, Text_input=, TextMessage=Validate_sortby_filter_club, Time_period_DD=, To_date=, Total_initial_Payment=, Url=https://test4.lafitness.com/Pages/findclubresultszip.aspx?, Work_time=}, org.testng.TestRunner@13d186db</td>
+<td></td>
+<td>162</td>
+<td>com.test.user.Locations_scenarios@10683d9d</td></tr>
 </table><p>
 </body>
 </html>
