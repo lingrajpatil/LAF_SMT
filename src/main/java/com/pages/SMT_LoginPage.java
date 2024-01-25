@@ -37,7 +37,9 @@ public class SMT_LoginPage extends Base_Class
 	private static By input_Password = By.id("mat-input-3");
 	private static By Btn_Signin = By.xpath("//div/button[@class='btn btn-primary px-5 py-3 login-btn']");
 	
-	
+	//Google xpaths
+	private static By Textbox_Search = By.xpath("//textarea[@name='q']");
+	private static By Btn_GoogleSearch = By.xpath("//input[@name='btnK']");
 	
 	// private static By Text_Agree_andEmail = By.xpath("//body/form[@id='aspnetForm']/div[3]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]");
 	//Scanner sc= new Scanner(System.in);  
@@ -90,6 +92,65 @@ public void TC_03_Validate_Click_btn_Contine_CCpop(String Value,String Text_inpu
 		}
 		
 	}
+
+		public void TC_04_Validate_GoogleURL(String Value,String Text_input) throws Exception {
+			
+			if (Value.equalsIgnoreCase("CheckGoogle_URL")) {
+		
+				
+				String GoogleURL= driver.getCurrentUrl();
+					
+					//String Text_acknowledge = driver.findElement(SMTTitle).getText().replaceAll("\n+", " ").trim();
+					Assert.assertEquals(GoogleURL.toUpperCase(),Text_input.trim().toUpperCase(),"Google URL does not match");
+
+					ExtentTestManager.getTest().log(Status.PASS, "Google URL matches successfully");
+					Log.info("Google URL matches successfully");
+			}
+			
+		}
+		public void TC_05_Validate_SearchTextbox(String Value,String Text_input) throws Exception {
+			
+			if (Value.equalsIgnoreCase("Check_search_textbox")) {
+		
+				Thread.sleep(1000);
+				MoveToElement(Textbox_Search);
+				input(Textbox_Search, "Test");
+				
+				ExtentTestManager.getTest().log(Status.PASS, "Searchbox validated successfully");
+				Log.info("Searchbox validated successfully");
+		
+			}
+			
+		}
+		public void TC_06_Validate_Click_btn_GoogleSearch(String Value,String Text_input) throws Exception {
+			
+			if (Value.equalsIgnoreCase("Click_btn_Contine_CCpop")) {
+		
+				Thread.sleep(1000);
+				input(Textbox_Search, "Test");
+				ExtentTestManager.getTest().log(Status.PASS, "Searchbox validated successfully");
+				Log.info("Searchbox validated successfully");
+				click(Btn_GoogleSearch);
+				Thread.sleep(5000);
+				boolean Resultdisplayed = driver.findElement(By.xpath("//div[@id='result-stats']")).isDisplayed();
+				if(Resultdisplayed==true)
+				{ExtentTestManager.getTest().log(Status.PASS, "successfully clicked on Google Search button");
+				Log.info("successfully clicked on Google Search button");
+				}
+				
+				else
+				{
+					ExtentTestManager.getTest().log(Status.FAIL, "failed to clicked on Google Search button");
+					Log.info("failed to clicked on Google Search button");
+				}
+					
+			}
+			
+		}
+
+
+
+
 
 
 

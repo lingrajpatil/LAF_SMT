@@ -1,17 +1,19 @@
-[INFO ] 2024-01-24 22:28:19.076 [main] Log - *** Running test method TC_01_Validate_SMTtitle_Text...
-[INFO ] 2024-01-24 22:28:22.876 [main] Log - Chrome browser launched successfully
-[INFO ] 2024-01-24 22:28:23.586 [main] Log - Entered the application url successfully: https://poolb.lafitness.clubs/SMTWebApp/SMTWEBApp/login
-[INFO ] 2024-01-24 22:28:23.690 [main] Log - SMTWeb title text matches successfully
-[INFO ] 2024-01-24 22:28:24.252 [main] Log - *** Test Suite TC_01_Validate_SMTtitle_Text ending ***
-[INFO ] 2024-01-24 22:28:24.254 [main] Log - Browser is closed
-[INFO ] 2024-01-24 22:28:24.269 [main] Log - *** Running test method TC_02_Validate_Text_ConfigChek_CCpop...
-[INFO ] 2024-01-24 22:28:25.936 [main] Log - Chrome browser launched successfully
-[INFO ] 2024-01-24 22:28:26.402 [main] Log - Entered the application url successfully: https://poolb.lafitness.clubs/SMTWebApp/SMTWEBApp/login
-[INFO ] 2024-01-24 22:28:26.713 [main] Log - *** Test Suite TC_02_Validate_Text_ConfigChek_CCpop ending ***
-[INFO ] 2024-01-24 22:28:26.713 [main] Log - Browser is closed
-[INFO ] 2024-01-24 22:28:26.724 [main] Log - *** Running test method TC_03_Validate_Click_btn_Contine_CCpop...
-[INFO ] 2024-01-24 22:28:28.145 [main] Log - Chrome browser launched successfully
-[INFO ] 2024-01-24 22:28:28.602 [main] Log - Entered the application url successfully: https://poolb.lafitness.clubs/SMTWebApp/SMTWEBApp/login
-[INFO ] 2024-01-24 22:28:31.094 [main] Log - Clicked successfully on 'Continue' button of Configure Check popup
-[INFO ] 2024-01-24 22:28:31.506 [main] Log - *** Test Suite TC_03_Validate_Click_btn_Contine_CCpop ending ***
-[INFO ] 2024-01-24 22:28:31.506 [main] Log - Browser is closed
+[INFO ] 2024-01-25 12:18:28.877 [main] Log - *** Running test method TC_04_Validate_GoogleURL...
+[INFO ] 2024-01-25 12:18:31.280 [main] Log - Chrome browser launched successfully
+[INFO ] 2024-01-25 12:18:32.139 [main] Log - Entered the application url successfully: https://www.google.com
+[INFO ] 2024-01-25 12:18:32.178 [main] Log - Google URL matches successfully
+[INFO ] 2024-01-25 12:18:32.685 [main] Log - *** Test Suite TC_04_Validate_GoogleURL ending ***
+[INFO ] 2024-01-25 12:18:32.685 [main] Log - Browser is closed
+[INFO ] 2024-01-25 12:18:32.695 [main] Log - *** Running test method TC_05_Validate_SearchTextbox...
+[INFO ] 2024-01-25 12:18:34.345 [main] Log - Chrome browser launched successfully
+[INFO ] 2024-01-25 12:18:35.204 [main] Log - Entered the application url successfully: https://www.google.com
+[INFO ] 2024-01-25 12:18:37.311 [main] Log - Searchbox validated successfully
+[INFO ] 2024-01-25 12:18:37.588 [main] Log - *** Test Suite TC_05_Validate_SearchTextbox ending ***
+[INFO ] 2024-01-25 12:18:37.588 [main] Log - Browser is closed
+[INFO ] 2024-01-25 12:18:37.594 [main] Log - *** Running test method TC_06_Validate_Click_btn_GoogleSearch...
+[INFO ] 2024-01-25 12:18:39.141 [main] Log - Chrome browser launched successfully
+[INFO ] 2024-01-25 12:18:40.037 [main] Log - Entered the application url successfully: https://www.google.com
+[INFO ] 2024-01-25 12:18:41.370 [main] Log - Searchbox validated successfully
+[INFO ] 2024-01-25 12:18:47.232 [main] Log - successfully clicked on Google Search button
+[INFO ] 2024-01-25 12:18:47.488 [main] Log - *** Test Suite TC_06_Validate_Click_btn_GoogleSearch ending ***
+[INFO ] 2024-01-25 12:18:47.490 [main] Log - Browser is closed

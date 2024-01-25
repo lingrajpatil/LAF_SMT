@@ -231,7 +231,28 @@
 						context.setAttribute("fileName", "Click_btn_Contine_CCpop");
 						driver.quit();break;
 			
+						
+					case "CheckGoogle_URL":
+						
+						context.setAttribute("fileName", "CheckGoogle_URL");
+						SMT_LoginPage.TC_04_Validate_GoogleURL(testdata.get("TextMessage").toString(),Text_input);
+						context.setAttribute("fileName", "CheckGoogle_URL");
+						driver.quit();break;
+			
+					case "Check_search_textbox":
+						
+						context.setAttribute("fileName", "Check_search_textbox");
+						SMT_LoginPage.TC_05_Validate_SearchTextbox(testdata.get("TextMessage").toString(),Text_input);
+						context.setAttribute("fileName", "Check_search_textbox");
+						driver.quit();break;
 					
+						
+					case "Click_btn_GoogleSeach":
+						
+						context.setAttribute("fileName", "Click_btn_GoogleSeach");
+						SMT_LoginPage.TC_06_Validate_Click_btn_GoogleSearch(testdata.get("TextMessage").toString(),Text_input);
+						context.setAttribute("fileName", "Click_btn_GoogleSeach");
+						driver.quit();break;
 	//					*/
 	
 						
