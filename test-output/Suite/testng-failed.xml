@@ -5,10 +5,8 @@
     <classes>
       <class name="com.test.user.All_scenarios">
         <methods>
-          <include name="CheckGoogleSearchButton"/>
           <include name="reference"/>
-          <include name="CheckGoogleSearchBox"/>
-          <include name="CheckGoogleURL"/>
+          <include name="CheckGoogleURL" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.test.user.All_scenarios -->
     </classes>

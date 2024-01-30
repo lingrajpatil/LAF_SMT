@@ -45,33 +45,30 @@
 
 		}
 		
-		
 		@Test
-		public void CheckGoogleURL() throws Exception
+		public void CheckGoogleURL(ITestContext context) throws Exception
 		{
-			
+//			Base_Class.setup();
+//			context.setAttribute("fileName", "CheckGoogle_URL");
 //			SMT_LoginPage.TC_04_Validate_GoogleURL("CheckGoogle_URL","Test");
 //			driver.quit();
-
-			
-			
-		
-			
+ 
 			
 //					*/
 		}
-		
 		@Test
-		public void CheckGoogleSearchBox() throws Exception
+		public void CheckGoogleSearchBox(ITestContext context) throws Exception
 		{
+//			Base_Class.setup();
+//			context.setAttribute("fileName", "Check_search_textbox");
 //			SMT_LoginPage.TC_05_Validate_SearchTextbox("Check_search_textbox","Test");
 //			driver.quit();
 		}
-		
 		@Test
-		public void CheckGoogleSearchButton() throws Exception
+		public void CheckGoogleSearchButton(ITestContext context) throws Exception
 		{
-
+//			Base_Class.setup();
+//			context.setAttribute("fileName", "Click_btn_GoogleSeach");
 //			SMT_LoginPage.TC_06_Validate_Click_btn_GoogleSearch("Click_btn_GoogleSeach","Test");
 //			driver.quit();
 		}
@@ -384,7 +381,7 @@
 			}
 		}
 	
-	//**/surefire-reports/TEST-*.xml
+	
 		
 		@DataProvider(name = "TestData")
 		public static Object[][] gettestdate() throws IOException {
