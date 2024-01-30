@@ -45,6 +45,37 @@
 
 		}
 		
+		
+		@Test
+		public void CheckGoogleURL() throws Exception
+		{
+			
+//			SMT_LoginPage.TC_04_Validate_GoogleURL("CheckGoogle_URL","Test");
+//			driver.quit();
+
+			
+			
+		
+			
+			
+//					*/
+		}
+		
+		@Test
+		public void CheckGoogleSearchBox() throws Exception
+		{
+//			SMT_LoginPage.TC_05_Validate_SearchTextbox("Check_search_textbox","Test");
+//			driver.quit();
+		}
+		
+		@Test
+		public void CheckGoogleSearchButton() throws Exception
+		{
+
+//			SMT_LoginPage.TC_06_Validate_Click_btn_GoogleSearch("Click_btn_GoogleSeach","Test");
+//			driver.quit();
+		}
+		
 		@Test(dataProvider = "TestData")
 		public void RUNALL(Map<Object, Object> testdata, ITestContext context) throws Throwable {
 	
@@ -353,7 +384,7 @@
 			}
 		}
 	
-	
+	//**/surefire-reports/TEST-*.xml
 		
 		@DataProvider(name = "TestData")
 		public static Object[][] gettestdate() throws IOException {
