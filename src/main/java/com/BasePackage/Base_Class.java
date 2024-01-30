@@ -74,7 +74,7 @@ public class Base_Class {
 	       
 //			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
-			options.setBrowserVersion("120");
+			options.setBrowserVersion("121");
 //			options.addArguments("--remote-allow-origins=*");
 			options.addArguments("--disable-extensions");
 			options.addArguments("--incognito");
