@@ -41,6 +41,10 @@ public class SMT_LoginPage extends Base_Class
 	private static By Textbox_Search = By.xpath("//textarea[@name='q']");
 	private static By Btn_GoogleSearch = By.xpath("//input[@name='btnK']");
 	
+	
+	//LAF Xpaths
+	private static By JoinNowButton = By.xpath("//div[@class='header']//a[@title='JOIN NOW']");
+	
 	// private static By Text_Agree_andEmail = By.xpath("//body/form[@id='aspnetForm']/div[3]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]");
 	//Scanner sc= new Scanner(System.in);  
 	
@@ -124,7 +128,7 @@ public void TC_03_Validate_Click_btn_Contine_CCpop(String Value,String Text_inpu
 		}
 		public void TC_06_Validate_Click_btn_GoogleSearch(String Value,String Text_input) throws Exception {
 			
-			if (Value.equalsIgnoreCase("Click_btn_Contine_CCpop")) {
+			if (Value.equalsIgnoreCase("Click_btn_GoogleSeach")) {
 		
 				Thread.sleep(1000);
 				input(Textbox_Search, "Test");
@@ -149,7 +153,66 @@ public void TC_03_Validate_Click_btn_Contine_CCpop(String Value,String Text_inpu
 		}
 
 
+public void TC_07_Validate_LAF_Title(String Value,String Text_input) throws Exception {
+			
+			if (Value.equalsIgnoreCase("CheckLAF_Title")) {
+		
+				
+				String URL= driver.getTitle();
+					
+					//String Text_acknowledge = driver.findElement(SMTTitle).getText().replaceAll("\n+", " ").trim();
+					Assert.assertEquals(URL.toUpperCase(),Text_input.trim().toUpperCase(),"Google URL does not match");
 
+					ExtentTestManager.getTest().log(Status.PASS, "LAF Title matches successfully");
+					Log.info("LAF Title matches successfully");
+			}
+			//div[@class='header]//a[@title='JOIN NOW']
+		}
+
+		public void TC_08_Validate_LAF_JoinNowButton(String Value,String Text_input) throws Exception {
+			
+			if (Value.equalsIgnoreCase("Check_LAF_JoinNowHeaderButton")) {
+		
+				Thread.sleep(1000);
+				MoveToElement(JoinNowButton);
+				if(driver.findElement(JoinNowButton).isDisplayed())
+				{
+					ExtentTestManager.getTest().log(Status.PASS, "Join Now button validated successfully");
+					Log.info("Join Now button validated successfully");
+					
+				}
+				else
+				{
+					ExtentTestManager.getTest().log(Status.FAIL, "Failed to validate Join Now button");
+					Log.info("Failed to validate Join Now button");
+					
+				}
+				
+			}
+			
+		}
+		public void TC_09_Validate_JoinNowClick(String Value,String Text_input) throws Exception {
+			
+			if (Value.equalsIgnoreCase("Click_JoinNowHeaderButton")) {
+		
+				Thread.sleep(1000);
+				click(JoinNowButton);
+				Thread.sleep(3000);
+				if(driver.getTitle().equals("LA Fitness | Gym Membership | Health and Fitness Center"))
+				
+					{
+					ExtentTestManager.getTest().log(Status.PASS, "Join Now button clicked successfully");
+					Log.info("Join Now button clicked successfully");
+					}
+			
+				else
+				{
+					ExtentTestManager.getTest().log(Status.FAIL, "failed to clicked on Join Now button");
+					Log.info("failed to clicked on Join Now button");
+				}
+					
+			}
+		}
 
 
 

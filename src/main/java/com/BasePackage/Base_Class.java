@@ -61,7 +61,7 @@ public class Base_Class {
 	public void setup() throws IOException, InterruptedException {
 
 		Browser = configloader().getProperty("Browser");
-		 Url = configloader().getProperty("URL");
+		 Url = configloader().getProperty("URL_LAF");
 //		String UserName = configloader().getProperty("UserName");
 //		String Password = configloader().getProperty("Password");
 

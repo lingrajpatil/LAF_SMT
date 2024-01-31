@@ -6,7 +6,7 @@
       <class name="com.test.user.All_scenarios">
         <methods>
           <include name="reference"/>
-          <include name="CheckGoogleURL" invocation-numbers="0"/>
+          <include name="RUNALL" invocation-numbers="1 2"/>
         </methods>
       </class> <!-- com.test.user.All_scenarios -->
     </classes>

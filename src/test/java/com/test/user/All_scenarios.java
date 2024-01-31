@@ -226,17 +226,8 @@
 
 					String No_Prev_emp_chk_box =testdata.get("No_Prev_emp_chk_box").toString();
 				
-					
-					
-					
-					
 							
 					switch (testdata.get("TextMessage").toString()) {
-					
-						
-					
-				
-					
 					
 					case "SMTtitle_Text":
 	
@@ -280,6 +271,29 @@
 						context.setAttribute("fileName", "Click_btn_GoogleSeach");
 						SMT_LoginPage.TC_06_Validate_Click_btn_GoogleSearch(testdata.get("TextMessage").toString(),Text_input);
 						context.setAttribute("fileName", "Click_btn_GoogleSeach");
+						driver.quit();break;
+	//					*/
+						
+					case "CheckLAF_Title":
+						
+						context.setAttribute("fileName", "CheckLAF_Title");
+						SMT_LoginPage.TC_07_Validate_LAF_Title(testdata.get("TextMessage").toString(),Text_input);
+						context.setAttribute("fileName", "CheckLAF_Title");
+						driver.quit();break;
+			
+					case "Check_LAF_JoinNowHeaderButton":
+						
+						context.setAttribute("fileName", "Check_LAF_JoinNowHeaderButton");
+						SMT_LoginPage.TC_08_Validate_LAF_JoinNowButton(testdata.get("TextMessage").toString(),Text_input);
+						context.setAttribute("fileName", "Check_LAF_JoinNowHeaderButton");
+						driver.quit();break;
+					
+						
+					case "Click_JoinNowHeaderButton":
+						
+						context.setAttribute("fileName", "Click_JoinNowHeaderButton");
+						SMT_LoginPage.TC_09_Validate_JoinNowClick(testdata.get("TextMessage").toString(),Text_input);
+						context.setAttribute("fileName", "Click_JoinNowHeaderButton");
 						driver.quit();break;
 	//					*/
 	
