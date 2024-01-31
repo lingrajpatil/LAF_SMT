@@ -12,6 +12,8 @@ import com.extentReports.ExtentTestManager;
 import com.google.common.base.Throwables;
 import com.google.common.base.Verify;
 
+import bsh.Capabilities;
+
 import java.io.IOException;
 import java.nio.file.Path;
 import java.time.Duration;
@@ -37,6 +39,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -187,10 +190,12 @@ public class Base_Class {
 
 //			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
-			options.setBrowserVersion("115");
+			options.setBrowserVersion("121");
 			options.addArguments("--disable-extensions");
 			options.addArguments("--incognito");
-			driver = new ChromeDriver(options);
+			DesiredCapabilities capabilities = new DesiredCapabilities();
+			capabilities.setCapability("acceptInsecureCerts", true); // no dedicated method
+			driver = new ChromeDriver(options.merge(capabilities));
 			
 			break;
 

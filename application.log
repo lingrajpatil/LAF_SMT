@@ -1,18 +1,18 @@
-[INFO ] 2024-01-31 10:29:07.510 [main] Log - *** Running test method TC_07_Validate_LAF_Title...
-[INFO ] 2024-01-31 10:29:10.315 [main] Log - Chrome browser launched successfully
-[INFO ] 2024-01-31 10:29:11.471 [main] Log - Entered the application url successfully: https://test4.lafitness.com/Pages/Default.aspx
-[INFO ] 2024-01-31 10:29:11.482 [main] Log - LAF Title matches successfully
-[INFO ] 2024-01-31 10:29:12.094 [main] Log - *** Test Suite TC_07_Validate_LAF_Title ending ***
-[INFO ] 2024-01-31 10:29:12.096 [main] Log - Browser is closed
-[INFO ] 2024-01-31 10:29:12.104 [main] Log - *** Running test method TC_08_Validate_JoinNow_Button...
-[INFO ] 2024-01-31 10:29:13.968 [main] Log - Chrome browser launched successfully
-[INFO ] 2024-01-31 10:29:15.032 [main] Log - Entered the application url successfully: https://test4.lafitness.com/Pages/Default.aspx
-[INFO ] 2024-01-31 10:29:17.123 [main] Log - Join Now button validated successfully
-[INFO ] 2024-01-31 10:29:17.502 [main] Log - *** Test Suite TC_08_Validate_JoinNow_Button ending ***
-[INFO ] 2024-01-31 10:29:17.503 [main] Log - Browser is closed
-[INFO ] 2024-01-31 10:29:17.511 [main] Log - *** Running test method TC_09_Validate_JoinNow_ClickButton...
-[INFO ] 2024-01-31 10:29:19.150 [main] Log - Chrome browser launched successfully
-[INFO ] 2024-01-31 10:29:20.082 [main] Log - Entered the application url successfully: https://test4.lafitness.com/Pages/Default.aspx
-[INFO ] 2024-01-31 10:29:25.288 [main] Log - Join Now button clicked successfully
-[INFO ] 2024-01-31 10:29:25.673 [main] Log - *** Test Suite TC_09_Validate_JoinNow_ClickButton ending ***
-[INFO ] 2024-01-31 10:29:25.674 [main] Log - Browser is closed
+[INFO ] 2024-01-31 10:50:47.539 [main] Log - *** Running test method TC_07_Validate_LAF_Title...
+[INFO ] 2024-01-31 10:50:51.439 [main] Log - Chrome browser launched successfully
+[INFO ] 2024-01-31 10:51:20.766 [main] Log - Entered the application url successfully: https://test4.lafitness.com/Pages/Default.aspx
+[INFO ] 2024-01-31 10:51:20.809 [main] Log - LAF Title matches successfully
+[INFO ] 2024-01-31 10:51:21.548 [main] Log - *** Test Suite TC_07_Validate_LAF_Title ending ***
+[INFO ] 2024-01-31 10:51:21.549 [main] Log - Browser is closed
+[INFO ] 2024-01-31 10:51:21.556 [main] Log - *** Running test method TC_08_Validate_JoinNow_Button...
+[INFO ] 2024-01-31 10:51:23.133 [main] Log - Chrome browser launched successfully
+[INFO ] 2024-01-31 10:51:24.461 [main] Log - Entered the application url successfully: https://test4.lafitness.com/Pages/Default.aspx
+[INFO ] 2024-01-31 10:51:26.632 [main] Log - Join Now button validated successfully
+[INFO ] 2024-01-31 10:51:27.056 [main] Log - *** Test Suite TC_08_Validate_JoinNow_Button ending ***
+[INFO ] 2024-01-31 10:51:27.056 [main] Log - Browser is closed
+[INFO ] 2024-01-31 10:51:27.064 [main] Log - *** Running test method TC_09_Validate_JoinNow_ClickButton...
+[INFO ] 2024-01-31 10:51:28.652 [main] Log - Chrome browser launched successfully
+[INFO ] 2024-01-31 10:51:29.827 [main] Log - Entered the application url successfully: https://test4.lafitness.com/Pages/Default.aspx
+[INFO ] 2024-01-31 10:51:35.962 [main] Log - Join Now button clicked successfully
+[INFO ] 2024-01-31 10:51:36.347 [main] Log - *** Test Suite TC_09_Validate_JoinNow_ClickButton ending ***
+[INFO ] 2024-01-31 10:51:36.347 [main] Log - Browser is closed
