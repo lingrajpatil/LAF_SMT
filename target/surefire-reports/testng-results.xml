@@ -2,49 +2,49 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-31T11:05:11 IST" name="Suite" finished-at="2024-01-31T11:05:36 IST" duration-ms="25019">
+  <suite started-at="2024-01-31T11:21:30 IST" name="Suite" finished-at="2024-01-31T11:21:49 IST" duration-ms="18871">
     <groups>
     </groups>
-    <test started-at="2024-01-31T11:05:11 IST" name="All_scenarios" finished-at="2024-01-31T11:05:36 IST" duration-ms="25019">
+    <test started-at="2024-01-31T11:21:30 IST" name="All_scenarios" finished-at="2024-01-31T11:21:49 IST" duration-ms="18871">
       <class name="com.test.user.All_scenarios">
-        <test-method is-config="true" signature="reference()[pri:0, instance:com.test.user.All_scenarios@6bd61f98]" started-at="2024-01-31T11:05:11 IST" name="reference" finished-at="2024-01-31T11:05:11 IST" duration-ms="398" status="PASS">
+        <test-method is-config="true" signature="reference()[pri:0, instance:com.test.user.All_scenarios@6bd61f98]" started-at="2024-01-31T11:21:30 IST" name="reference" finished-at="2024-01-31T11:21:30 IST" duration-ms="373" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reference -->
-        <test-method signature="CheckGoogleSearchBox(org.testng.ITestContext)[pri:0, instance:com.test.user.All_scenarios@6bd61f98]" started-at="2024-01-31T11:05:11 IST" name="CheckGoogleSearchBox" finished-at="2024-01-31T11:05:11 IST" duration-ms="1" status="PASS">
+        <test-method signature="CheckGoogleSearchBox(org.testng.ITestContext)[pri:0, instance:com.test.user.All_scenarios@6bd61f98]" started-at="2024-01-31T11:21:30 IST" name="CheckGoogleSearchBox" finished-at="2024-01-31T11:21:30 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@57ce2898]]>
+                <![CDATA[org.testng.TestRunner@7af327e3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckGoogleSearchBox -->
-        <test-method signature="CheckGoogleSearchButton(org.testng.ITestContext)[pri:0, instance:com.test.user.All_scenarios@6bd61f98]" started-at="2024-01-31T11:05:11 IST" name="CheckGoogleSearchButton" finished-at="2024-01-31T11:05:11 IST" duration-ms="0" status="PASS">
+        <test-method signature="CheckGoogleSearchButton(org.testng.ITestContext)[pri:0, instance:com.test.user.All_scenarios@6bd61f98]" started-at="2024-01-31T11:21:30 IST" name="CheckGoogleSearchButton" finished-at="2024-01-31T11:21:30 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@57ce2898]]>
+                <![CDATA[org.testng.TestRunner@7af327e3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckGoogleSearchButton -->
-        <test-method signature="CheckGoogleURL(org.testng.ITestContext)[pri:0, instance:com.test.user.All_scenarios@6bd61f98]" started-at="2024-01-31T11:05:11 IST" name="CheckGoogleURL" finished-at="2024-01-31T11:05:11 IST" duration-ms="0" status="PASS">
+        <test-method signature="CheckGoogleURL(org.testng.ITestContext)[pri:0, instance:com.test.user.All_scenarios@6bd61f98]" started-at="2024-01-31T11:21:30 IST" name="CheckGoogleURL" finished-at="2024-01-31T11:21:30 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@57ce2898]]>
+                <![CDATA[org.testng.TestRunner@7af327e3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckGoogleURL -->
-        <test-method signature="RUNALL(java.util.Map,org.testng.ITestContext)[pri:0, instance:com.test.user.All_scenarios@6bd61f98]" started-at="2024-01-31T11:05:12 IST" name="RUNALL" data-provider="TestData" finished-at="2024-01-31T11:05:23 IST" duration-ms="11055" status="PASS">
+        <test-method signature="RUNALL(java.util.Map,org.testng.ITestContext)[pri:0, instance:com.test.user.All_scenarios@6bd61f98]" started-at="2024-01-31T11:21:31 IST" name="RUNALL" data-provider="TestData" finished-at="2024-01-31T11:21:36 IST" duration-ms="4495" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,14 +53,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@57ce2898]]>
+                <![CDATA[org.testng.TestRunner@7af327e3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RUNALL -->
-        <test-method signature="RUNALL(java.util.Map,org.testng.ITestContext)[pri:0, instance:com.test.user.All_scenarios@6bd61f98]" started-at="2024-01-31T11:05:23 IST" name="RUNALL" data-provider="TestData" finished-at="2024-01-31T11:05:28 IST" duration-ms="4931" status="PASS">
+        <test-method signature="RUNALL(java.util.Map,org.testng.ITestContext)[pri:0, instance:com.test.user.All_scenarios@6bd61f98]" started-at="2024-01-31T11:21:36 IST" name="RUNALL" data-provider="TestData" finished-at="2024-01-31T11:21:40 IST" duration-ms="4694" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,14 +69,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@57ce2898]]>
+                <![CDATA[org.testng.TestRunner@7af327e3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RUNALL -->
-        <test-method signature="RUNALL(java.util.Map,org.testng.ITestContext)[pri:0, instance:com.test.user.All_scenarios@6bd61f98]" started-at="2024-01-31T11:05:28 IST" name="RUNALL" data-provider="TestData" finished-at="2024-01-31T11:05:36 IST" duration-ms="8243" status="PASS">
+        <test-method signature="RUNALL(java.util.Map,org.testng.ITestContext)[pri:0, instance:com.test.user.All_scenarios@6bd61f98]" started-at="2024-01-31T11:21:40 IST" name="RUNALL" data-provider="TestData" finished-at="2024-01-31T11:21:49 IST" duration-ms="8865" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@57ce2898]]>
+                <![CDATA[org.testng.TestRunner@7af327e3]]>
               </value>
             </param>
           </params>

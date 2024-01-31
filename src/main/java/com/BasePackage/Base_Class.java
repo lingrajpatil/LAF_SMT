@@ -81,9 +81,9 @@ public class Base_Class {
 			options.addArguments("--disable-extensions");
 			options.addArguments("--incognito");
 			options.setPageLoadStrategy(PageLoadStrategy.EAGER);
-//			options.addArguments("--disable-gpu");
+			options.addArguments("--disable-gpu");
 //			options.addArguments("enable-automation");
-////			options.addArguments("--headless");
+//			options.addArguments("--headless");
 //			options.addArguments("--window-size=1920,1080");
 //			options.addArguments("--dns-prefetch-disable");
 //			options.addArguments("--no-sandbox");
@@ -103,7 +103,10 @@ public class Base_Class {
 //			options.addArguments("--disable-blink-features=AutomationControlled");
 //			options.setProxy(null);
 //			WebDriverManager.chromedriver().forceDownload().setup();
-			  driver=new ChromeDriver(options); 
+			DesiredCapabilities capabilities = new DesiredCapabilities();
+			capabilities.setCapability("acceptInsecureCerts", true); // no dedicated method
+			driver = new ChromeDriver(options.merge(capabilities));
+//			  driver=new ChromeDriver(options); 
 //			driver = new ChromeDriver(options);
 			
 			break;
