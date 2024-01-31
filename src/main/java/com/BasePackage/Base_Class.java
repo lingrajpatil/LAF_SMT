@@ -103,10 +103,10 @@ public class Base_Class {
 //			options.addArguments("--disable-blink-features=AutomationControlled");
 //			options.setProxy(null);
 //			WebDriverManager.chromedriver().forceDownload().setup();
-			DesiredCapabilities capabilities = new DesiredCapabilities();
-			capabilities.setCapability("acceptInsecureCerts", true); // no dedicated method
-			driver = new ChromeDriver(options.merge(capabilities));
-//			  driver=new ChromeDriver(options); 
+//			DesiredCapabilities capabilities = new DesiredCapabilities();
+//			capabilities.setCapability("acceptInsecureCerts", true); // no dedicated method
+//			driver = new ChromeDriver(options.merge(capabilities));
+			  driver=new ChromeDriver(options); 
 //			driver = new ChromeDriver(options);
 			
 			break;
