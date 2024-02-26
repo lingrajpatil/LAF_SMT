@@ -1,18 +1,19 @@
-[INFO ] 2024-01-31 11:21:31.803 [main] Log - *** Running test method TC_07_Validate_LAF_Title...
-[INFO ] 2024-01-31 11:21:34.322 [main] Log - Chrome browser launched successfully
-[INFO ] 2024-01-31 11:21:35.579 [main] Log - Entered the application url successfully: https://test4.lafitness.com/Pages/Default.aspx
-[INFO ] 2024-01-31 11:21:35.588 [main] Log - LAF Title matches successfully
-[INFO ] 2024-01-31 11:21:36.208 [main] Log - *** Test Suite TC_07_Validate_LAF_Title ending ***
-[INFO ] 2024-01-31 11:21:36.208 [main] Log - Browser is closed
-[INFO ] 2024-01-31 11:21:36.213 [main] Log - *** Running test method TC_08_Validate_JoinNow_Button...
-[INFO ] 2024-01-31 11:21:37.653 [main] Log - Chrome browser launched successfully
-[INFO ] 2024-01-31 11:21:38.612 [main] Log - Entered the application url successfully: https://test4.lafitness.com/Pages/Default.aspx
-[INFO ] 2024-01-31 11:21:40.559 [main] Log - Join Now button validated successfully
-[INFO ] 2024-01-31 11:21:40.902 [main] Log - *** Test Suite TC_08_Validate_JoinNow_Button ending ***
-[INFO ] 2024-01-31 11:21:40.902 [main] Log - Browser is closed
-[INFO ] 2024-01-31 11:21:40.903 [main] Log - *** Running test method TC_09_Validate_JoinNow_ClickButton...
-[INFO ] 2024-01-31 11:21:42.616 [main] Log - Chrome browser launched successfully
-[INFO ] 2024-01-31 11:21:43.821 [main] Log - Entered the application url successfully: https://test4.lafitness.com/Pages/Default.aspx
-[INFO ] 2024-01-31 11:21:49.307 [main] Log - Join Now button clicked successfully
-[INFO ] 2024-01-31 11:21:49.766 [main] Log - *** Test Suite TC_09_Validate_JoinNow_ClickButton ending ***
-[INFO ] 2024-01-31 11:21:49.767 [main] Log - Browser is closed
+[INFO ] 2024-02-26 17:24:31.223 [main] Log - *** Running test method TC_04_Validate_GoogleURL...
+[INFO ] 2024-02-26 17:24:36.217 [main] Log - Chrome browser launched successfully
+[INFO ] 2024-02-26 17:24:36.971 [main] Log - Entered the application url successfully: https://www.google.com
+[INFO ] 2024-02-26 17:24:36.982 [main] Log - Google URL matches successfully
+[INFO ] 2024-02-26 17:24:37.477 [main] Log - *** Test Suite TC_04_Validate_GoogleURL ending ***
+[INFO ] 2024-02-26 17:24:37.480 [main] Log - Browser is closed
+[INFO ] 2024-02-26 17:24:37.488 [main] Log - *** Running test method TC_05_Validate_SearchTextbox...
+[INFO ] 2024-02-26 17:24:39.064 [main] Log - Chrome browser launched successfully
+[INFO ] 2024-02-26 17:24:39.804 [main] Log - Entered the application url successfully: https://www.google.com
+[INFO ] 2024-02-26 17:24:41.907 [main] Log - Searchbox validated successfully
+[INFO ] 2024-02-26 17:24:42.180 [main] Log - *** Test Suite TC_05_Validate_SearchTextbox ending ***
+[INFO ] 2024-02-26 17:24:42.180 [main] Log - Browser is closed
+[INFO ] 2024-02-26 17:24:42.189 [main] Log - *** Running test method TC_06_Validate_Click_btn_GoogleSearch...
+[INFO ] 2024-02-26 17:24:43.687 [main] Log - Chrome browser launched successfully
+[INFO ] 2024-02-26 17:24:44.596 [main] Log - Entered the application url successfully: https://www.google.com
+[INFO ] 2024-02-26 17:24:45.937 [main] Log - Searchbox validated successfully
+[INFO ] 2024-02-26 17:24:51.824 [main] Log - successfully clicked on Google Search button
+[INFO ] 2024-02-26 17:24:52.134 [main] Log - *** Test Suite TC_06_Validate_Click_btn_GoogleSearch ending ***
+[INFO ] 2024-02-26 17:24:52.134 [main] Log - Browser is closed

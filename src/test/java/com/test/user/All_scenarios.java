@@ -45,7 +45,7 @@
 
 		}
 		
-		@Test
+/*		@Test
 		public void CheckGoogleURL(ITestContext context) throws Exception
 		{
 //			Base_Class.setup();
@@ -54,7 +54,7 @@
 //			driver.quit();
  
 			
-//					*/
+//					
 		}
 		@Test
 		public void CheckGoogleSearchBox(ITestContext context) throws Exception
@@ -72,6 +72,7 @@
 //			SMT_LoginPage.TC_06_Validate_Click_btn_GoogleSearch("Click_btn_GoogleSeach","Test");
 //			driver.quit();
 		}
+		*/
 		
 		@Test(dataProvider = "TestData")
 		public void RUNALL(Map<Object, Object> testdata, ITestContext context) throws Throwable {

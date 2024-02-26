@@ -63,7 +63,7 @@ public class Base_Class {
 	public void setup() throws IOException, InterruptedException {
 
 		Browser = configloader().getProperty("Browser");
-		 Url = configloader().getProperty("URL_LAF");
+		 Url = configloader().getProperty("URL");
 //		String UserName = configloader().getProperty("UserName");
 //		String Password = configloader().getProperty("Password");
 
@@ -195,10 +195,10 @@ public class Base_Class {
 			options.setBrowserVersion("121");
 			options.addArguments("--disable-extensions");
 			options.addArguments("--incognito");
-			DesiredCapabilities capabilities = new DesiredCapabilities();
-			capabilities.setCapability("acceptInsecureCerts", true); // no dedicated method
-			driver = new ChromeDriver(options.merge(capabilities));
-			
+//			DesiredCapabilities capabilities = new DesiredCapabilities();
+//			capabilities.setCapability("acceptInsecureCerts", true); // no dedicated method
+//			driver = new ChromeDriver(options.merge(capabilities));
+			driver=new ChromeDriver(options);
 			break;
 
 		case "FIREFOX":
